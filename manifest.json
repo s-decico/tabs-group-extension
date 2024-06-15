@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Grouper",
+  "version": "1.0",
+  "description": "Automatically organizes tabs into groups with 1 click.",
+  "permissions": [
+    "tabs",
+    "tabGroups",
+    "activeTab"
+    
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "32": "icons/icon32.png"
+    
+    }
+  },
+  "icons": {
+    "32": "icons/icon32.png"
+   
+  }
+}
